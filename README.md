@@ -93,4 +93,4 @@ Project Status
 
 Version: 3.6.0-Stable
 Supported Android: 11-16
-License: Open source for research purposes
+License: Apache License 2.0
