@@ -62,7 +62,7 @@ adb shell /data/local/tmp/FlingerExplorer.sh
 
 **Method 2: Clone Repository**
 
-bash
+```bash
 git clone https://github.com/Sadpainy/FlingerExplorer.git
 cd FlingerExplorer
 adb push FlingerExplorer.sh /data/local/tmp/
@@ -70,7 +70,8 @@ adb shell chmod +x /data/local/tmp/FlingerExplorer.sh
 ```
 
 Method 3: Direct Download
-bash
+
+```bash
 curl -o FlingerExplorer.sh https://raw.githubusercontent.com/Sadpainy/FlingerExplorer/main/FlingerExplorer.sh
 adb push FlingerExplorer.sh /data/local/tmp/
 adb shell chmod +x /data/local/tmp/FlingerExplorer.sh
@@ -82,15 +83,17 @@ adb shell chmod +x /data/local/tmp/FlingerExplorer.sh
 
 Connect to your device via ADB and navigate to the script location. Execute the script to launch the interactive menu system.
 
-bash
+```bash
 adb shell
 cd /data/local/tmp
 ./FlingerExplorer.sh
+```
 
 Or run directly from your host machine:
 
-bash
+```bash
 adb shell /data/local/tmp/FlingerExplorer.sh
+```
 
 First-Time Setup
 The tool automatically creates the following directories on first run:
@@ -169,7 +172,7 @@ Testing
 
 Quick Test
 
-bash
+```bash
 # Syntax validation
 bash -n FlingerExplorer.sh
 
@@ -178,6 +181,7 @@ shellcheck FlingerExplorer.sh
 
 # Function test on connected device
 adb shell /data/local/tmp/FlingerExplorer.sh --test
+```
 
 Test Coverage
 
