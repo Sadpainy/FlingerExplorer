@@ -2,8 +2,6 @@
 
 **Android System Services Research Toolkit**
 
-![Android](https://img.shields.io/badge/Android-11--16-brightgreen)
-![Version](https://img.shields.io/badge/version-3.6.0--Stable-blue)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![Platform](https://img.shields.io/badge/platform-ARM64%20%7C%20x86__64-orange)
 ![Shell](https://img.shields.io/badge/shell-Bash-lightgrey)
